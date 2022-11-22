@@ -1,0 +1,37 @@
+#btnToList{
+    -fx-background-color: Orange;
+    -fx-background-radius: 5;
+    -fx-text-fill:white ;
+}
+#btnSubmit{
+    -fx-background-color: Orange;
+    -fx-background-radius: 5;
+    -fx-text-fill:white ;
+}
+#txtName{
+    -fx-background-radius: 7;
+}
+#txtTel{
+    -fx-background-radius: 7;
+}
+#txtEmail{
+    -fx-background-radius: 7;
+}
+#txtTime{
+    -fx-background-radius: 7;
+}
+#txtGl{
+    -fx-background-radius: 7;
+}
+#txtCMT{
+    -fx-background-radius: 7;
+}
+#carBrand{
+    -fx-background-radius: 7;
+}
+#carName{
+    -fx-background-radius: 7;
+}
+#carPrice{
+    -fx-background-radius: 7;
+}

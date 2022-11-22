@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="541.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.car.giveCarBack.GiveCarBackController">
+   <children>
+      <Text layoutX="217.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Give car back">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="60.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name Customer :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="235.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name Car :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="60.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Car return date :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="60.0" layoutY="299.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Retained papers :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="61.0" layoutY="365.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount paid :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="nameCus" layoutX="271.0" layoutY="137.0" promptText="nane Customer">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameCar" layoutX="271.0" layoutY="200.0" promptText="name Car">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="amoutPaid" layoutX="271.0" layoutY="330.0" promptText="Amount paid">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="retainedPapers" layoutX="271.0" layoutY="264.0" promptText="Retained papers">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="payBtn" layoutX="127.0" layoutY="445.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="328.0" text="Pay">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <DatePicker layoutX="271.0" layoutY="65.0" prefHeight="51.0" prefWidth="297.0" />
+   </children>
+</Pane>

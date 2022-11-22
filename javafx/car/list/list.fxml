@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="list" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" stylesheets="/css/listCss.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafx.car.list.ListController">
+   <children>
+      <TableView fx:id="tbCar" layoutX="16.0" layoutY="200.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="600.0" prefWidth="1239.0">
+        <columns>
+          <TableColumn fx:id="cBrand" prefWidth="250.0" text="Name" />
+          <TableColumn fx:id="cName" prefWidth="285.0" text="Brand" />
+            <TableColumn fx:id="cDeposit" prefWidth="215.0" text="Deposit" />
+            <TableColumn fx:id="cPrice" minWidth="0.0" prefWidth="200.0" text="Price/Day" />
+            <TableColumn fx:id="cStatus" minWidth="0.0" prefWidth="152.0" text="Status" />
+            <TableColumn fx:id="cAction" prefWidth="137.0" text="Action" />
+        </columns>
+      </TableView>
+       <Button fx:id="listBn" layoutX="1050.0" layoutY="112.0" mnemonicParsing="false" onAction="#backToList" prefHeight="50.0" prefWidth="200.0" text="ListBill" />
+
+       <TextField fx:id="txtSearch" layoutX="14.0" layoutY="112.0" prefHeight="50.0" prefWidth="219.0" promptText="Search By Car Name......">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+      <Text fx:id="textTitle" fill="#ae4545" layoutX="540.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="List Cars" textAlignment="CENTER" wrappingWidth="200.0">
+         <font>
+            <Font name="Apple SD Gothic Neo Bold" size="39.0" />
+         </font></Text>
+      <Button fx:id="searchBn" layoutX="242.0" layoutY="112.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="57.0" />
+      <ImageView fitHeight="40.0" fitWidth="49.0" layoutX="251.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/icons8-search-50.png" />
+         </image>
+      </ImageView>
+       
+   </children>
+</Pane>
